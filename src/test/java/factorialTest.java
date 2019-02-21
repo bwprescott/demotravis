@@ -9,8 +9,8 @@ public class factorialTest {
         assertEquals(6, factorial.factorials(3));
     }
 
-    //@Test
-    //void failure() {
-    //    assertEquals(6, factorial.factorials(4));
-    //}
+    @Test
+    void failure() {
+        assertEquals(6, factorial.factorials(4));
+    }
 }
