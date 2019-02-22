@@ -11,6 +11,6 @@ public class factorialTest {
 
     @Test
     void failure() {
-        assertEquals(6, factorial.factorials(3));
+        assertEquals(6, factorial.factorials(4));
     }
 }
